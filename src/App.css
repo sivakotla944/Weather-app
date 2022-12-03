@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -36,3 +37,64 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+background-color: #282c34;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  left: 50%;
+  transform:  translate(-50%,-50%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card-body{
+  padding: 35px;
+
+}
+
+.card-body h2{
+  margin: 0;
+}
+
+ input{
+margin: 10px;
+ }
+
+  .searchbar{
+   border-radius: 5px;
+   padding: 10px 5px;
+   width: 50%;
+   border: none;
+   outline:  none;
+ }
+
+ .submit{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+ }
+
+ .result h3{
+  color: white;
+
+ }
+
+ img{
+  width: 100px;
+  height: 100px;
+ }
+
+
+@media screen and  (max-width : 700px){
+
+  .card{
+    height: 400px;
+    width: 300px;
+  }
+  
+}
+
